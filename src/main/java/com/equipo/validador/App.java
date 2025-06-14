@@ -1,13 +1,15 @@
 package com.equipo.validador;
-
+import java.util.logging.Logger;
 /**
  * Hello world!
  */
 public class App {
- public static void main(String[] args) {
- String usuario = System.getenv("APP_USER");
- if ("admin".equals(usuario)) {
- System.out.println("¡Bienvenido administrador!");
- }
- }
+    private static final Logger logger = Logger.getLogger(App.class.getName());
+
+    public static void main(String[] args) {
+        String usuario = System.getenv("APP_USER");
+        if ("admin".equals(usuario)) {
+            logger.info("¡Bienvenido administrador!");
+        }
+    }
 }

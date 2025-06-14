@@ -1,4 +1,4 @@
-# Created at 2025-06-13T22:03:57.479
+# Created at 2025-06-13T22:05:46.592
 Boot Manifest-JAR contains absolute paths in classpath 'D:\Clases\DEVOPS\validadorapp\target\test-classes'
 Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
 'other' has different root
